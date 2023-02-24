@@ -1,1 +1,1 @@
-# proj-indiv-case1
+# movie-list-app-case1
