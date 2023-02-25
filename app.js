@@ -12,4 +12,4 @@ app.use(express.json());
 
 app.listen(port, ()=>{
     console.log(`Server rodando em: http://localhost:${port}`)
-})
+});
