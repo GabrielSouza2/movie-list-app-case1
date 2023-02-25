@@ -10,6 +10,10 @@ const db = new sqlite3.Database('movies.db');
 app.use(cors());
 app.use(express.json());
 
-app.listen(port, ()=>{
-    console.log(`Server rodando em: http://localhost:${port}`)
+app.get('/', (req, res) => {
+  res.send('Se não der Olá mundo dá azar');
+});
+
+app.listen(port, () => {
+  console.log(`Server running at http://localhost:${port}`);
 });
